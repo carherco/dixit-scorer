@@ -1,0 +1,46 @@
+<ion-view view-title="Configuración">
+    <ion-content>
+        <div class="list">
+
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Puntos cuentacuentos
+                </div>
+                <select ng-model="settings.storyTellerBonus">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+            
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Puntos por adivinar la carta del cuentacuentos
+                </div>
+                <select ng-model="settings.correctVoteBonus">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+            
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Puntos por que otros jugadores elijan tu carta
+                </div>
+                <select ng-model="settings.votedBonus">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </label>
+
+        </div>
+    </ion-content>
+</ion-view>
